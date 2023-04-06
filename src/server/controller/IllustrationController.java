@@ -7,7 +7,7 @@ import server.service.IllustrationServiceImpl;
 
 public class IllustrationController {
 
-    IllustrationService illustrationService = new IllustrationServiceImpl();
+    private IllustrationService illustrationService = new IllustrationServiceImpl();
 
     public void requestIllustration(Project project, String request) {
         illustrationService.request(project, request);

@@ -9,7 +9,7 @@ import server.service.ProjectServiceImpl;
  */
 public class ProjectController {
 
-    private final ProjectService projectService = new ProjectServiceImpl();
+    private ProjectService projectService = new ProjectServiceImpl();
 
     // The session is responsible for thing the user from the session
     public void createProject(Project project) {

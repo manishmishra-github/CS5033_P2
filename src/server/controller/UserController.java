@@ -9,7 +9,7 @@ import server.service.UserServiceImpl;
  */
 public class UserController {
 
-    private final UserService userService = new UserServiceImpl();
+    private UserService userService = new UserServiceImpl();
 
     /***
      * /register

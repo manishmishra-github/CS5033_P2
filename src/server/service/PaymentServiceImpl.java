@@ -7,7 +7,6 @@ public class PaymentServiceImpl implements PaymentService {
     public String subscribe(User user) {
         return null;
     }
-
     @Override
     public void makePayment(String output) {
 

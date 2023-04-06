@@ -1,4 +1,5 @@
 package client.service;
 
-public class RequestServiceImpl implements RequestService{
+public class RequestServiceImpl implements RequestService {
+
 }

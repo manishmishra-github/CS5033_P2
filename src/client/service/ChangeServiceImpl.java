@@ -2,7 +2,7 @@ package client.service;
 
 import client.model.Project;
 
-public class VersionControlServiceImpl implements VersionControlService {
+public class ChangeServiceImpl implements ChangeService {
 
     public void commit(Project project) {
     }

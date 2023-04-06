@@ -6,7 +6,7 @@ import server.service.PaymentServiceImpl;
 
 public class PaymentController {
 
-    PaymentService paymentService = new PaymentServiceImpl();
+    private PaymentService paymentService = new PaymentServiceImpl();
 
     public void subscribe(User user) {
         String output = paymentService.subscribe(user);

@@ -16,6 +16,6 @@ public class Main {
         PublishController publishController = new PublishController();
         StoryController storyController = new StoryController();
         UserController userController = new UserController();
-        VersionControlController versionControlController = new VersionControlController();
+        ChangeController changeController = new ChangeController();
     }
 }

@@ -1,4 +1,4 @@
 package client.gui;
 
-public interface Application {
+public class Application {
 }

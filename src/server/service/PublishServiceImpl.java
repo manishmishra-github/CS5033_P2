@@ -1,4 +1,9 @@
 package server.service;
 
-public class PublishServiceImpl implements PublishService{
+import server.model.Story;
+
+public class PublishServiceImpl implements PublishService {
+    @Override
+    public void publish(Story story) {
+    }
 }

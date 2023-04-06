@@ -6,7 +6,7 @@ import server.service.PublishServiceImpl;
 
 public class PublishController {
 
-    PublishService publishService = new PublishServiceImpl();
+    private PublishService publishService = new PublishServiceImpl();
 
     public void publish(Story story) {
         publishService.publish(story);
